@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Bootstrap CDN-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <div class="container">
+
+            <!-- Title -->
+
+            <div class="row page-title">
+                <div class="col-sm-12">
+                    <h1>DRUM PAD</h1>
+                    <hr>
+                </div>
+            </div>
+
+           <!-- Drum Pad layout -->   
+            <div class="row justify-content-center drum-pad">
+                <div class="col-sm-3 pad" id="pad-1" data-key="103">
+                    <h1>KICK</h1>
+                </div>
+                <div class="col-sm-3 pad" id="pad-2" data-key="104">
+                    <h1>SNARE</h1>
+                </div>
+                <div class="col-sm-3 pad" id="pad-3" data-key="105">
+                    <h1>CYMBAL</h1>
+                </div>
+                
+                <div class="w-100 d-none d-md-block"></div>
+                
+                <div class="col-sm-3 pad" id="pad-4" data-key="100">
+                    <h1>TOM</h1>
+                </div>
+                <div class="col-sm-3 pad" id="pad-5" data-key="101">
+                    <h1>TOM</h1>
+                </div>
+                <div class="col-sm-3 pad" id="pad-6" data-key="102">
+                    <h1>CRASH</h1>
+                </div>
+                
+                <div class="w-100 d-none d-md-block"></div>
+                
+                <div class="col-sm-3 pad" id="pad-7" data-key="97">
+                    <h1>HAT</h1>
+                </div>
+                <div class="col-sm-3 pad" id="pad-8" data-key="98">
+                    <h1>CLAP</h1>
+                </div>
+                <div class="col-sm-3 pad" id="pad-9" data-key="99">
+                    <h1>808</h1>
+                </div>
+            </div>
+           <!-- Drum Pad layout END --> 
+
+        </div>
+
+        <!-- AUDIO FILES -->
+        
+        <audio data-key="103" src="audios/kick.wav"></audio>
+        <audio data-key="104" src="audios/snare.wav"></audio>
+        <audio data-key="105" src="audios/cymbal.wav"></audio>
+
+        <audio data-key="100" src="audios/tom1.wav"></audio>
+        <audio data-key="101" src="audios/tom2.wav"></audio>
+        <audio data-key="102" src="audios/crash.wav"></audio>
+
+        <audio data-key="97" src="audios/hat.wav"></audio>
+        <audio data-key="98" src="audios/clap.wav"></audio>
+        <audio data-key="99" src="audios/bass.wav"></audio>
+        
+
+
+        <!--Bootstrap CDN-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!--JS-->
+        <script src="js/main.js"></script>
+    </body>
+</html>

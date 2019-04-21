@@ -1,0 +1,93 @@
+body{
+    background: #121212;
+}
+
+.page-title h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.page-title hr{
+    background: white;
+    width: 50%;
+}
+
+.drum-pad .pad{
+    min-height: 10rem;
+    border: solid 2px white;
+}
+
+
+.pad h1{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: aliceblue;
+}
+
+#pad-1{
+    background-image: linear-gradient(to right, rgba(237, 13, 13, 0.72), rgba(211, 2, 107, 0.82));
+}
+#pad-1:hover{
+    background-image: linear-gradient(to right, rgba(237, 13, 13, 1), rgba(211, 2, 107, 1));
+}
+
+#pad-2{
+    background-image: linear-gradient(to right, rgba(237, 13, 168, 0.72), rgba(163, 2, 211, 0.82));
+}
+#pad-2:hover{
+    background-image: linear-gradient(to right, rgba(237, 13, 168, 1), rgba(163, 2, 211, 1));
+}
+
+#pad-3{
+    background-image: linear-gradient(to right, rgba(228, 13, 237, 0.72), rgba(82, 2, 211, 0.82));
+}
+#pad-3:hover{
+    background-image: linear-gradient(to right, rgba(228, 13, 237, 1), rgba(82, 2, 211, 1));
+}
+
+#pad-4{
+    background-image: linear-gradient(to right, rgba(168, 13, 237, 0.72), rgba(26, 2, 211, 0.82));
+}
+#pad-4:hover{
+    background-image: linear-gradient(to right, rgba(168, 13, 237, 1), rgba(26, 2, 211, 1));
+}
+
+#pad-5{
+    background-image: linear-gradient(to right, rgba(39, 13, 237, 0.72), rgba(2, 66, 211, 0.82));
+}
+#pad-5:hover{
+   background-image: linear-gradient(to right, rgba(39, 13, 237, 1), rgba(2, 66, 211, 1)); 
+}
+
+#pad-6{
+    background-image: linear-gradient(to right, rgba(13, 73, 237, 0.72), rgba(2, 203, 211, 0.82));
+}
+#pad-6:hover{
+    background-image: linear-gradient(to right, rgba(13, 73, 237, 1), rgba(2, 203, 211, 1));
+}
+
+#pad-7{
+    background-image: linear-gradient(to right, rgba(13, 185, 237, 0.72), rgba(2, 211, 147, 0.82));
+}
+#pad-7:hover{
+    background-image: linear-gradient(to right, rgba(13, 185, 237, 1), rgba(2, 211, 147, 1));
+}
+
+#pad-8{
+    background-image: linear-gradient(to right, rgba(13, 237, 159, 0.72), rgba(2, 211, 26, 0.82));
+}
+#pad-8:hover{
+    background-image: linear-gradient(to right, rgba(13, 237, 159, 1), rgba(2, 211, 26, 1));
+}
+
+#pad-9{
+    background-image: linear-gradient(to right, rgba(13, 237, 47, 0.72), rgba(163, 211, 2, 0.82));
+}
+#pad-9:hover{
+    background-image: linear-gradient(to right, rgba(13, 237, 47, 1), rgba(163, 211, 2, 1));
+}
+
+.pad-hit{
+    background-image: linear-gradient(to right, rgba(168, 163, 163, 0.72), rgba(41, 40, 40, 0.82)) !important;
+}
